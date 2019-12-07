@@ -44,41 +44,36 @@ paginate = 10
 
 # Top bar social links menu
 
-# [[menu.topbar]]
-#     weight = 1
-#     name = "GitHub"
-#     url = "https://github.com/devcows/hugo-universal-theme"
-#     pre = "<i class='fab fa-2x fa-github'></i>"
-
 [[menu.topbar]]
     weight = 1
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/company/hackersoon/"
-    pre = "<i class='fab fa-2x fa-linkedin'></i>"
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "Facebook"
-    url = "https://www.facebook.com/hackersoon/"
+    url = "http://facebook.com"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Twitter"
-    url = "https://twitter.com/hacker_soon"
+    url = "http://twitter.com"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
+
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:contact@hackersoon.com"
+    url = "mailto:your@email.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "Pulkit Agrawal"
+    author = "DevCows"
     defaultKeywords = ["devows", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Pulkit using hugo"
+    defaultDescription = "Site template made by devcows using hugo"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -104,25 +99,28 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "contact@hackersoon.com"
+    email = "your@email.com"
     contact_form_ajax = false
 
-    about_us = "<p>Building a web based online complier.</p>"
-    copyright = "Copyright (c) 2019, hackersoon; all rights reserved."
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
-    date_format = "July 15, 2019"
+    date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Hackersoon Ltd.</strong>
-        <br>Bangalore
+    address = """<p><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
         <br>
-        <strong>India</strong>
+        <strong>Great Britain</strong>
       </p>
       """
-    latitude = "12.913050"
-    longitude = "77.642138"
+    latitude = "-12.043333"
+    longitude = "-77.028333"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -130,7 +128,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +91-9206255513 or help@hackersoon.com</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
